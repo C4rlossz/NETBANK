@@ -1,6 +1,6 @@
 import { TextInput, Button, Image, ScrollView, StyleSheet, Text, View } from "react-native";
-import { useFonts, Poppins_400Regular } from "@expo-google-fonts/poppins";
 import React, { useState } from 'react';
+
 
 import logo from "../../assets/logo.png";
 import setting from "../../assets/setting.png";
@@ -39,6 +39,7 @@ export function Home() {
         <View style={styles.footer}>
           <Text style={styles.footerText}>Do que precisa?</Text>
 
+
 <ScrollView style={styles.FooterContentScroolView} showsHorizontalScrollIndicator={false} horizontal={true}>
 
           <View style={styles.footerCard}>            
@@ -61,6 +62,7 @@ export function Home() {
             <Image source={IPVA} />
             <Text style={styles.FooterCardText}>Consultar Multas e IPVA</Text>
           </View>
+
 </ScrollView>
         </View>
     </View>
