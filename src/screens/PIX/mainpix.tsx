@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 function DetailsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Bem-vindo à tela de detalhes!</Text>
+      <Text style={styles.text}>Deseja fazer um piX?</Text>
     </View>
   );
 }
